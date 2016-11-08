@@ -12,6 +12,7 @@
 }
 @media screen and (max-width: 1020px) {
   article > img,
+  article > iframe,
   .galleryRail img {
     width: 100%;
   }
@@ -32,7 +33,11 @@
   article > *:not(section) {
     width: calc(100% - 40px);
   }
-
+  article > iframe {
+    width: 100%;
+    min-width: 100%;
+  }
+  
   .galleryRail figure {
     width: 100%;
     min-width: 100%;
