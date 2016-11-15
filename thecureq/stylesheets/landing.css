@@ -1,0 +1,23 @@
+.mainSection {
+  height: 800px;
+}
+.mainSection section {
+  position: absolute;
+  margin: 147px 0 0 160px;
+}
+.mainSection h2{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+.mainSection p {
+  margin-top: 21px
+  font-size: 26px;
+  line-height: 36px;
+}
+.mainSection section figure {
+  margin-top: 100px;
+  width: 210px;
+  height: 20px;
+  background: green;
+}
