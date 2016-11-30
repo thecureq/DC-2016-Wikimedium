@@ -14,30 +14,21 @@
     <meta property="og:description" content="Проект, разработанный командой Hæd Exchange, для обучения основам веб-вёрстки в рамках образовательного проекта Hack Exchange.">
     <meta property="og:image" content="http://wikimedium.hack.exchange/images/share.png">
 
+    <link rel="stylesheet" href="stylesheets/style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="icon" type="image/png" href="favicon.png" />
 
-    <link rel="stylesheet" href="stylesheets/style.css">
     <script src="javascripts/jquery-3.1.1.js"></script>
     <script src="javascripts/social-likes.min.js"></script>
-
-    <style media="screen">
-      body {
-        /* width: 1440px;
-        min-width: 1280px;
-        height: 3200px;
-        margin: 0 auto; */
-        background-image: url(images/index_mockup_ipad.png);
-        background-repeat: no-repeat;
-        background-position: top center;
-      }
-    </style>
   </head>
-  <body class="landing bg">
+
+  <body class="landing">
 
     <nav class="menubar">
-      <a class="logo" href="../posts.html"></a>
-      <a class="about" href="../index.html">О проекте</a>
+      <div>
+      <a class="logo" href="posts.html"></a>
+      <a class="about" href="index.html">О проекте</a>
+    </div>
     </nav>
 
   <section class="landingWrapper">
@@ -54,6 +45,7 @@
        </p>
        <figure></figure>
      </section>
+
     <figure class="mockup" id="mockup1"></figure>
   </section>
 
@@ -96,18 +88,26 @@
 
   <section class="mainSection center">
     <section>
-      <h2>
-        Возможность самостоятельного <br>
-        и курируемого обучения.
-      </h2>
-      <p>
-        Вы можете обучаться самостоятельно по исходному коду проекта,<br>
-        выложенному на GitHub, или записаться на курс “Основы<br>
-        веб-вёрстки с Захаром Днём” на Hack Exchange.
-      </p>
-      </section>
-  </section>
-</section>
+      <h2>Возможность самостоятельного  <br> и курируемого обучения.</h2>
+      <p>Вы можете обучаться самостоятельно по исходному <br class="compact"> коду проекта, <br class="full">
+        выложенному на GitHub, или записаться <br class="compact"> на курс “Основы <br class="full">
+        веб-вёрстки с Захаром Днём” <br class="compact"> на Hack Exchange.</p>
+      <nav>
+         <a class="btn small white" href="http://github.com/ZakharDay/Wikimedium">Исходный код на GitHub</a>
+         <a class="btn large green" href="http://lessons.hack.exchange">Курс на Hack Exchange</a>
+       </nav>
+    </section>
 
-  </body>
+  <footer>
+    <p>Пожалуйста, поделитесь знаниями с друзьями</p>
+
+    <div class="social-likes" data-counters="no" data-url="http://wikimedium.hack.exchange">
+    <div class="facebook" title="Поделиться ссылкой на Фейсбуке">Facebook</div>
+    <div class="twitter" title="Поделиться ссылкой в Твиттере">Twitter</div>
+    <div class="vkontakte" title="Поделиться ссылкой во Вконтакте">Вконтакте</div>
+  </footer>
+
+   </section>
+  </section>
+</body>
 </html>
