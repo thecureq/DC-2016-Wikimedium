@@ -1,6 +1,12 @@
 .menubar div {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   height: 50px;
   padding: 20px;
@@ -16,6 +22,7 @@
 .about {
   font-size: 14px;
   color: rgba(0,0,0,0.2);
+  -webkit-transition: all .1s ease;
   transition: all .1s ease;
   line-height: 50px;
 }
